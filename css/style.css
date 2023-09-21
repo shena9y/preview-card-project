@@ -1,0 +1,140 @@
+body {
+margin: unset;
+padding: unset;
+background-color: #0d1a2d;
+font-family: sans-serif;
+}
+.project {
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+.contanier {
+background-color: #15273f;
+width: 353px;
+height: 650px;
+border-radius: 15px;
+position: absolute;
+top: 90px;
+align-items: center;
+box-shadow: -2px 1px 20px 0px #000000;
+}
+.project .contanier .image {
+width: 324px;
+display: flex;
+position: relative;
+top: 21px;
+right: -4%;
+}
+
+.project .contanier .image .view  {
+  position: absolute;
+  right: 42%;
+  transition: 0.5s;
+  top: 42%;
+  cursor: pointer;
+  display: none;
+}
+.project .contanier .image .view:hover {
+  display: block;
+  background-color: #0debec;
+}
+.project .contanier .image .view img:hover {
+  display: block;
+}
+.project .contanier .image img{
+max-width: 100%;
+border-radius: 15px;
+}
+.project .contanier .info {
+margin-top: 70px;
+padding: 0 20px;
+}
+.project .contanier .info h3 {
+color: #fcffff;
+letter-spacing: 0.5px;
+cursor: pointer;
+transition: 0.5s;
+}
+.project .contanier .info h3:hover {
+  color: #0debec;
+}
+.project .contanier .info p {
+max-width: 270px;
+color: #627796;
+line-height: 1.6;
+margin: 0;
+padding: 0;
+display: inline;
+font-weight: 600;
+}
+.project .contanier .info .paragraph {
+display: inline;
+padding-left: 20px;
+color: #0debec;
+}
+
+.project .contanier .info {
+text-align: left;
+}
+.info .icon-contanier {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+position: relative;
+}
+.info .icon-contanier .icon-left img {
+position: absolute;
+top: 12%;
+}
+.info .icon-contanier .icon-right img {
+  position: absolute;
+  top: 12%;
+  left: 67%;
+}
+.info .icon-contanier .icon-left p {
+margin-left: 20px;
+color: #0debec;
+font-weight: 600;
+}
+.info .icon-contanier .icon-right p {
+font-weight: 600;
+}
+.line {
+  position: absolute;
+  bottom: 90px;
+  width: 311px;
+  height: 2px;
+  background-color: #425368;
+  left: 22px;
+}
+.avatar .avatar-image {
+  position: absolute;
+  bottom: 20px;
+  border-radius: 55%;
+  outline: 1.5px solid white;
+  width: 44px;
+  height: 45px;
+}
+.avatar .avatar-image img {
+width: 45px;
+
+}
+.avatar  .avatar-para {
+  position: absolute;
+  bottom: 0;
+  left: 86px;
+  top: 91%;
+}
+.info .avatar .avatar-para .name {
+  color: rgb(213, 208, 208);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.info .avatar .avatar-para .name:hover {
+  color: #0debec;
+}
+.info .avatar .avatar-para span {
+  color: #627796;
+}
