@@ -6,6 +6,8 @@ A solution to the **Frontend Mentor** "NFT preview card component" challenge, bu
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Frontend Mentor](https://img.shields.io/badge/Frontend%20Mentor-3F54A3?style=for-the-badge&logo=frontendmentor&logoColor=white)
 
+🔗 **Live Demo:** [https://shena9y.github.io/preview-card-project/](https://shena9y.github.io/preview-card-project/)
+
 ## ✨ Features
 
 - 🖼️ NFT artwork with a hover-activated **view icon overlay** (smooth 0.5s transition)
